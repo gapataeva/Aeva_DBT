@@ -1,0 +1,11 @@
+version: 2
+
+
+sources:
+  - name: AEVA
+    database: AEVA
+    schema: CS
+    tables: 
+        - name: customer
+        - name: orders
+        - name: product

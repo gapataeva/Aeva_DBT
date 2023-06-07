@@ -7,4 +7,4 @@
 
 
 select * from
-aeva.cs.product
+{{ source('AEVA', 'product') }}
